@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="container">
+        <form class="form-class">
+
+            <div id="form-content">
+                <div id="name" class="content-form">
+                    <h3 class="field-head">Name</h3>
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="first-name" required>
+                        <div class="help-text">First</div>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="last-name" required>
+                        <div class="help-text">Last</div>
+                    </div>
+                </div>
+
+
+                <div id="email" class="content-form">
+                    <div>
+                        <h3 class="field-head">Email</h3>
+                        <div class="input-div">
+                            <input type="text" class="form-control-input" id="email" required>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="exp" class="content-form">
+                    <h3 class="field-head">Your Experience</h3>
+                    <div class="input-div">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="help-text" id="rating-help">Overall, how would you rate your experience with us?</div>
+                </div>
+                <div id="overexp" class="content-form">
+                    <h3 class="field-head">How staisfied are you with</h3>
+                    <div class="grid1">
+                        <span id="item-1">Very Unsatisfied</span>
+                        <span id="item-2">Unsatisfied</span>
+                        <span id="item-3">Neutral</span>
+                        <span id="item-4">Satisfied</span>
+                        <span id="item-5">Very Satisfied</span>
+
+                        <p id="rating-1">Purchase</p>
+                        <p id="rating-2">Service</p>
+                        <p id="rating-3">Overall</p>
+
+                        <div id="purchase-rating-1">
+                            <input type="radio">
+                        </div>
+                        <div id="purchase-rating-2">
+                            <input type="radio">
+                        </div>
+                        <div id="purchase-rating-3">
+                            <input type="radio">
+                        </div>
+                        <div id="purchase-rating-4">
+                            <input type="radio">
+                        </div>
+                        <div id="purchase-rating-5">
+                            <input type="radio">
+                        </div>
+                        <div id="service-rating-1">
+                            <input type="radio">
+                        </div>
+                        <div id="service-rating-2">
+                            <input type="radio">
+                        </div>
+                        <div id="service-rating-3">
+                            <input type="radio">
+                        </div>
+                        <div id="service-rating-4">
+                            <input type="radio">
+                        </div>
+                        <div id="service-rating-5">
+                            <input type="radio">
+                        </div>
+                        <div id="overall-rating-1">
+                            <input type="radio">
+                        </div>
+                        <div id="overall-rating-2">
+                            <input type="radio">
+                        </div>
+                        <div id="overall-rating-3">
+                            <input type="radio">
+                        </div>
+                        <div id="overall-rating-4">
+                            <input type="radio">
+                        </div>
+                        <div id="overall-rating-5">
+                            <input type="radio">
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="content-form">
+                        <h3 id="g2" class="field-head">How likely are you to</h3>
+                        <div class="grid2">
+                            <span id="item-6">Very Unlikely</span>
+                            <span id="item-7">Unlikely</span>
+                            <span id="item-8">Neutral</span>
+                            <span id="item-9">likely</span>
+                            <span id="item-10">Very likely</span>
+
+                            <p id="rating-4">Buy from us again</p>
+                            <p id="rating-5">Recommend our product to other</p>
+                            <p id="rating-6">Recommend our company to other</p>
+
+                            <div id="purchase-1">
+                                <input type="radio">
+                            </div>
+                            <div id="purchase-2">
+                                <input type="radio">
+                            </div>
+                            <div id="purchase-3">
+                                <input type="radio">
+                            </div>
+                            <div id="purchase-4">
+                                <input type="radio">
+                            </div>
+                            <div id="purchase-5">
+                                <input type="radio">
+                            </div>
+                            <div id="service-1">
+                                <input type="radio">
+                            </div>
+                            <div id="service-2">
+                                <input type="radio">
+                            </div>
+                            <div id="service-3">
+                                <input type="radio">
+                            </div>
+                            <div id="service-4">
+                                <input type="radio">
+                            </div>
+                            <div id="service-5">
+                                <input type="radio">
+                            </div>
+                            <div id="overall-1">
+                                <input type="radio">
+                            </div>
+                            <div id="overall-2">
+                                <input type="radio">
+                            </div>
+                            <div id="overall-3">
+                                <input type="radio">
+                            </div>
+                            <div id="overall-4">
+                                <input type="radio">
+                            </div>
+                            <div id="overall-5">
+                                <input type="radio">
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="content-form">
+                            <h3 class="field-head">Additional comments or suggestions</h3>
+                            <input type="text" class="form-control-input" id="comment" required>
+                        </div>
+
+                        <button class="content-form">submit</button>
+
+                    
+        </form>
+    </section>
+</body>
+
+</html>
